@@ -1,11 +1,11 @@
 
 # @Value()
 build:
-  version: "1.0"
+  version: "1.5"
 
 # @ConfigurationProperties()    - configuration
 cards:
-  message: "Welcome to PROD cards related microservice"
+  message: "Welcome to PROD cards microservice"
   contactDetails:
     name: "manoj Raja PS"
     email: "manoj@gmail.com"
