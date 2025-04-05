@@ -5,7 +5,7 @@ build:
 
 # @ConfigurationProperties()    - configuration
 cards:
-  message: "Welcome to production cards microservice"
+  message: "Welcome to prod cards microservice"
   contactDetails:
     name: "manoj Raja PS"
     email: "manoj@gmail.com"
