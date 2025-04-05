@@ -1,0 +1,14 @@
+
+# @Value()
+build:
+  version: "3.0"
+
+# @ConfigurationProperties()    - configuration
+cards:
+  message: "Welcome to cards microservice "
+  contactDetails:
+    name: "manoj Raja"
+    email: "manoj@gmail.com"
+  onCallSupport:
+    -123456789
+    -1234563456

@@ -1,0 +1,14 @@
+
+# @Value()
+build:
+  version: "2.0"
+
+# @ConfigurationProperties()    - configuration
+cards:
+  message: "Welcome to QA  cards microservice"
+  contactDetails:
+    name: "manoj Raja QA-lead"
+    email: "manoj@gmail.com"
+  onCallSupport:
+    -123456789
+    -1234563456

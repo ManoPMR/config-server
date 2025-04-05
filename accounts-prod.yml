@@ -1,0 +1,14 @@
+
+# @Value()
+build:
+  version: "1.0"
+
+# @ConfigurationProperties()    - configuration
+accounts:
+  message: "Welcome to PROD accounts microservice"
+  contactDetails:
+    name: "manoj Raja PS"
+    email: "manoj@gmail.com"
+  onCallSupport:
+    -123456789
+    -1234563456

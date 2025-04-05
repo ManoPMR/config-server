@@ -1,0 +1,15 @@
+
+
+# @Value()
+build:
+  version: "3.0"
+
+# @ConfigurationProperties()    - configuration
+accounts:
+  message: "Welcome to accounts microservice"
+  contactDetails:
+    name: "manoj Raja"
+    email: "manoj@gmail.com"
+  onCallSupport:
+    -123456789
+    -1234563456
