@@ -5,7 +5,7 @@ build:
 
 # @ConfigurationProperties()    - configuration
 accounts:
-  message: "Welcome to production account microservice"
+  message: "Welcome to PROD account microservice"
   contactDetails:
     name: "manoj Raja PS"
     email: "manoj@gmail.com"
