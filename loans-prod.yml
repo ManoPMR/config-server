@@ -1,13 +1,13 @@
 
 # @Value()
 build:
-  version: "1.0"
+  version: "1.5"
 
 # @ConfigurationProperties()    - configuration
 loans:
-  message: "Welcome to PROD loans microservice"
+  message: "Welcome to prod loans microservice"
   contactDetails:
-    name: "manoj Raja ps"
+    name: "manoj Raja PS"
     email: "manoj@gmail.com"
   onCallSupport:
     -123456789
