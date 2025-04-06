@@ -5,7 +5,7 @@ build:
 
 # @ConfigurationProperties()    - configuration
 loans:
-  message: "Welcome to loans microservice"
+  message: "Welcome to loans docker microservice"
   contactDetails:
     name: "manoj Raja"
     email: "manoj@gmail.com"
