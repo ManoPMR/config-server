@@ -6,7 +6,7 @@ build:
 
 # @ConfigurationProperties()    - configuration
 accounts:
-  message: "Welcome to accounts microservice"
+  message: "Welcome to accounts docker microservice"
   contactDetails:
     name: "manoj Raja"
     email: "manoj@gmail.com"
