@@ -5,7 +5,7 @@ build:
 
 # @ConfigurationProperties()    - configuration
 loans:
-  message: "Welcome to production loans microservice"
+  message: "Welcome to  production loans microservice"
   contactDetails:
     name: "manoj Raja PS"
     email: "manoj@gmail.com"
