@@ -1,12 +1,11 @@
-server
-  port 8070
+server:
+  port: 8070
 
-eureka
-  instance
-    hostname localhost
-  client
-    fetchRegistry false
-    registerWithEureka false
-    serviceUrl
-      defaultZone http${eureka.instance.hostname}${server.port}eureka
-    
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: false  # Eureka server never going to call any ms. in other ms like accounts, it will be true
+    registerWithEureka: false # dont want to register with itself , dont expose your details into registry of service discovery
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #http://localhost:8070/eureka
